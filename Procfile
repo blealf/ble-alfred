@@ -1,2 +1,2 @@
-web: cd blealf && PORT=3000 npm start
-api: PORT=3001 && bundle exec rails s
+web: cd blealf && npm start
+api: bundle exec rails s
