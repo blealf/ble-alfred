@@ -1,2 +1,1 @@
-web: cd blealf && npm start
-api: bundle exec rails s
+web: bundle exec rails s

@@ -1,5 +1,13 @@
 {
   "name": "blealf",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": "8.11.2"
+  },
+  "scripts": {
+    "build": "cd blealf && npm install && npm run build && cd ..",
+    "deploy": "cp -a blealf/build/. public/",
+    "postinstall": "npm run build && npm run deploy && echo 'BLealf react built!'"
+  }
 }
