@@ -1,6 +1,5 @@
 {
   "name": "blealf",
-  "private": true,
   "dependencies": {},
   "engines": {
     "node": "8.11.2"
