@@ -13,7 +13,7 @@ const Education = ({education}) =>
             <h2> {education.institution} </h2>
             <h3>{education.degree} in {education.course}</h3>
             <ul>
-                <li>{education.additional_info}</li>
+                <li class="edu">{education.additional_info}</li>
             </ul>
         </div>
     </div>

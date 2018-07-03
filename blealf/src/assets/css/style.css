@@ -214,6 +214,17 @@ nav {
     padding-top: 10px;
     padding-left: 1.2rem;
     text-align: left;
+    margin-left: -35px;
+    
+}
+
+.left .edu {
+    text-align: center;
+    padding-left: 0.5px;
+    padding: 0.5rem;
+    /* background: var(--main);
+    color: white; */
+    margin-left: -35px;
 }
 
 .duties {
@@ -223,10 +234,12 @@ nav {
 
 .duties div {
     margin-top: 9px;
+    margin-left: -35px;
 }
 
 .duties:hover .point{
     font-size: 1.5rem;
+    
 }
 
 #skills {
@@ -482,6 +495,7 @@ nav {
         padding-top: 0px;
         grid-area: right;
         /* border-top: 1px solid var(--main); */
+    
         
 
     }

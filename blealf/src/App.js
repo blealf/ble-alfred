@@ -71,7 +71,7 @@ class App extends Component {
         <div>
           <nav>
             <div id="logo">
-              <div><h2>Blessing Alfred</h2></div>
+              <div><h2 id="1" onClick={this.handleClick}>Blessing Alfred</h2></div>
               <div>
                 <button id="menu-btn" >
                   <i className="fas fa-bars"></i>
