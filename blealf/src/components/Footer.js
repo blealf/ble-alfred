@@ -19,7 +19,7 @@ const Footer = () =>
             </div>
         </div>
         <div>
-            <p> &copy 2018 By Blessing Alfred</p>
+            <p> 2018 By Blessing Alfred</p>
         </div>
     </div>
         

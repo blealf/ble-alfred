@@ -9,22 +9,22 @@ class Contact extends Component{
 
                     <div className="form">
                         <div className="form-group">
-                            <label for="">Name:</label>
+                            <label>Name:</label>
                             <input type="text" name="" id="" />
                         </div>
 
                         <div className="form-group">
-                            <label for="">Email:</label>
+                            <label>Email:</label>
                             <input type="email" name="" id="" />
                         </div>
 
                         <div className="form-group">
-                            <label for="">Phone:</label>
+                            <label>Phone:</label>
                             <input type="text" name="" id="" />
                         </div>
 
                         <div className="form-group message">
-                            <label for="">Message:</label>
+                            <label>Message:</label>
                             <textarea name="" id="" cols="30" rows="10"></textarea>
                         </div>
                     </div>

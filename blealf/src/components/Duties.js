@@ -27,10 +27,10 @@ class Duties extends Component {
             <ul>
                 {this.state.duties.map(duty => {
                     return(
-                        <div className="duties">
-                            <div className="point"><i class="fas fa-hand-point-right"></i> {"  "}</div>
+                        <div className="duties" key={duty.id}>
+                            <div className="point" ><i className="fas fa-hand-point-right"></i> {"  "}</div>
                             
-                            <li key={duty.id} >{duty.duty}</li>
+                            <li>{duty.duty}</li>
                         </div>
                         
                     )
