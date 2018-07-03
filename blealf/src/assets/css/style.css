@@ -59,7 +59,11 @@ nav {
     list-style: none;
     margin-left: -40px;
     margin-bottom: 0px;
-    transition: margin 1s
+    transition: all 2s
+}
+
+.nav-wrapper-transition {
+    transition: all 2s
 }
 
 
@@ -306,7 +310,7 @@ nav {
 .form-group label {
     padding: 5px;
 }
-.form-group input, .form-group textarea {
+.form-group input, .form-group textarea, .form-group button  {
     padding: 8px;
     font-size: 1.2rem;
     margin-top: 1px;
@@ -319,13 +323,20 @@ nav {
     height: 35px;
 }
 
-    .footer {
-        max-width: 1020px;
-        margin: 0 auto;
-        bottom:0;
-        padding-top: 20px;
-        text-align: center;
-    }
+.form-group button {
+    background: #549CAD;
+    color: white;
+    border: none;
+    height: 50px;
+}
+
+.footer {
+    max-width: 1020px;
+    margin: 0 auto;
+    bottom:0;
+    padding-top: 20px;
+    text-align: center;
+}
 
 @media only screen and (min-width: 768px){
     nav {

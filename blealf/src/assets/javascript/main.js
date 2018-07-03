@@ -17,16 +17,13 @@ window.onload = function() {
     }
   }
   
-  
   // navigation for mobile
   function showMenu() {
-    // nav.style.transition = "display 1s";
     if (nav.style.display === "none"){
       nav.style.display = "block";
     } else {
       nav.style.display = "none";
     }
-    
   }
 
 

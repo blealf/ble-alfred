@@ -20,12 +20,15 @@ class Contact extends Component{
 
                         <div className="form-group">
                             <label>Phone:</label>
-                            <input type="text" name="" id="" />
+                            <input type="number" name="" id="" />
                         </div>
 
                         <div className="form-group message">
                             <label>Message:</label>
                             <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div className="form-group message">
+                            <button>Submit</button>
                         </div>
                     </div>
                 </div>

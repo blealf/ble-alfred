@@ -79,7 +79,7 @@ class App extends Component {
               </div>
             </div>
 
-            <ul id="nav-wrapper" className="wrapper">
+            <ul id="nav-wrapper" className="wrapper ">
               <li className="nav-links">
                 <a href="#" id="1" onClick={this.handleClick}>Home</a>
               </li>
