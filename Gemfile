@@ -27,6 +27,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#Enabling Cross Origin Resource Sharing (CORS)
+gem 'rack-cors', :require => 'rack/cors'
+gem 'seed_dump'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

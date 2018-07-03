@@ -25,7 +25,7 @@ window.onload = function() {
   function showMenu() {
     // nav.style.transition = "display 1s";
 
-    if (nav.style.display == "none"){
+    if (nav.style.display === "none"){
       
       nav.style.display = "block";
     } else {

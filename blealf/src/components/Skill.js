@@ -6,7 +6,7 @@ class Skill extends Component{
             <div>
                 <div id="space"></div>
                 <h1 id="skills"> Skills</h1>
-                <div class="skills">
+                <div className="skills">
 
                     <div>Ruby on Rails</div>
                     <div>HTML5</div>

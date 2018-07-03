@@ -15,22 +15,22 @@ class Nav extends Component{
                         <div><h2>Blessing Alfred</h2></div>
                         <div>
                             <button id="menu-btn" >
-                                <i class="fas fa-bars"></i>
+                                <i className="fas fa-bars"></i>
                             </button>
                         </div>
                     </div>
 
-                    <ul id="nav-wrapper" class="wrapper">
-                        <li class="nav-links">
+                    <ul id="nav-wrapper" className="wrapper">
+                        <li className="nav-links">
                             <a href="#">Home</a>
                         </li>
-                        <li class="nav-links">
+                        <li className="nav-links">
                             <a href="#">Resume</a>
                         </li>
-                        <li class="nav-links">
+                        <li className="nav-links">
                             <a href="#">About</a>
                         </li>
-                        <li class="nav-links">
+                        <li className="nav-links">
                             <a href="#">Contact</a>
                         </li>
                     </ul>

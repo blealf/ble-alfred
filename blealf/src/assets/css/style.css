@@ -102,6 +102,11 @@ nav {
     background: black;
 }
 
+.bounding-box a {
+    text-decoration: none;
+    color: black;
+}
+
 .sets {
     display: block;
     margin:0;
@@ -203,8 +208,22 @@ nav {
 .left li {
     list-style: none;
     padding-top: 10px;
+    padding-left: 1.2rem;
+    text-align: left;
 }
 
+.duties {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.duties div {
+    margin-top: 9px;
+}
+
+.duties:hover .point{
+    font-size: 1.5rem;
+}
 
 #skills {
     background: var(--main);
@@ -441,6 +460,7 @@ nav {
         grid-gap: 10px;
         grid-template-areas: 
         "right right left";
+        /* transform: box-shadow 1s; */
     }
 
     .left {
@@ -451,8 +471,13 @@ nav {
         padding-top: 0px;
         grid-area: right;
         /* border-top: 1px solid var(--main); */
+        
 
     }
+
+    /* .details:hover {
+        box-shadow: -2px -2px 5px 5px var(--main);
+    } */
 
     .right {
         grid-column-start: 2;
@@ -465,7 +490,13 @@ nav {
         grid-area: left;
         align-self: center;
         /* border-left: 1px solid var(--main); */
+        transition: transform 1s;
     }
+
+    .right:hover{
+        transform: rotate(0deg);
+    }
+
 
     #skills {
         margin-top: 20px;
