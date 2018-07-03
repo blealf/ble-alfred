@@ -11,7 +11,7 @@ class Duties extends Component {
     }
 
     componentDidMount(){
-        var queryString = 'http://localhost:3001/api/v1/experiences/1/job_duties.json';
+        var queryString = 'api/v1/experiences/1/job_duties.json';
         axios.get(queryString)
             .then(response => {
                 console.log(response)

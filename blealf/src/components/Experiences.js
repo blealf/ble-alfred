@@ -12,7 +12,7 @@ class Experiences extends Component{
     }
 
     componentDidMount(){
-        axios.get('http://localhost:3001/api/v1/experiences.json')
+        axios.get('api/v1/experiences.json')
             .then(response => {
                 console.log(response)
                 this.setState({
@@ -22,10 +22,6 @@ class Experiences extends Component{
             .catch(error => console.log(error))
         
     }
-
-
-
-
 
     render(){
         return(

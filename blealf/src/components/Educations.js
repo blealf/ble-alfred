@@ -13,7 +13,7 @@ class Educations extends Component{
 
 
     componentDidMount() {
-        axios.get('http://localhost:3001/api/v1/educations.json')
+        axios.get('api/v1/educations.json')
         .then(response => {
             console.log(response)
             this.setState({
