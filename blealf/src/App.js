@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './assets/css/style.css'
+import './assets/css/big-screen.css'
 import './assets/javascript/main'
 import './assets/fontawesome/js/all.js'
 
