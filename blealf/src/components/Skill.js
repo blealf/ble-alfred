@@ -10,7 +10,7 @@ class Skill extends Component{
     }
 
     componentDidMount(){
-        axios.get('http://localhost:3001/api/v1/skills.json')
+        axios.get('api/v1/skills.json')
             .then(response => {
                 console.log(response)
                 this.setState({
@@ -30,12 +30,6 @@ class Skill extends Component{
                             <div key={skill.id}>{skill.skill}</div>
                         )
                     })}
-                    {/* <div>Ruby on Rails</div>
-                    <div>HTML5</div>
-                    <div>CSS3</div>
-                    <div>JavaScript</div>
-                    <div>Python</div>
-                    <div>Git</div> */}
                 </div>
             </div>
         )

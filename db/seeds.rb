@@ -20,13 +20,14 @@ Experience.create!([
   {job_title: "Frontrunner Intern", company: "De Montfort Universiy, Leicester, UK", start_date: "2016-06-01", end_date: "2016-12-31"},
   {job_title: "Software Development Team Member", company: "Schlumberger Company with the University of Lagos, Lagos, Nigeria.", start_date: "2014-05-01", end_date: "2014-11-30"}
 ])
-JobDuty.create!([
-  {duty: "Preliminary investigation on neural network models for spatial data analysis", experience_id: 1},
-  {duty: "Data Loading and processing using MATLAB and Python", experience_id: 1},
-  {duty: "Time series analysis of spatial data using artificial neural networks to predict vegetation cover of an area in Leicester, England, United Kingdom", experience_id: 1},
-  {duty: "Data preparation and sampling", experience_id: 1},
-  {duty: "Participated in a competition involving several universities in developing a plugin for the Petrel (Schlumberger) software to extract stratigraphic information from seismic data using C#.", experience_id: 2},
-  {duty: "Gathered user requirement and developed functional requirement for the system", experience_id: 2},
-  {duty: "Facilitated team meetings", experience_id: 2},
-  {duty: "Worked in a team of four during a 6 months' period and made several presentations on the result of the builds.", experience_id: 2}
-])
+
+# JobDuty.create!([
+#   {duty: "Preliminary investigation on neural network models for spatial data analysis", experience_id: 1},
+#   {duty: "Data Loading and processing using MATLAB and Python", experience_id: 1},
+#   {duty: "Time series analysis of spatial data using artificial neural networks to predict vegetation cover of an area in Leicester, England, United Kingdom", experience_id: 1},
+#   {duty: "Data preparation and sampling", experience_id: 1},
+#   {duty: "Participated in a competition involving several universities in developing a plugin for the Petrel (Schlumberger) software to extract stratigraphic information from seismic data using C#.", experience_id: 2},
+#   {duty: "Gathered user requirement and developed functional requirement for the system", experience_id: 2},
+#   {duty: "Facilitated team meetings", experience_id: 2},
+#   {duty: "Worked in a team of four during a 6 months' period and made several presentations on the result of the builds.", experience_id: 2}
+# ])
