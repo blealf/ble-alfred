@@ -1,3 +1,8 @@
+:root {
+    --main: #17768D;
+    --dark: black;
+}
+
 @media only screen and (min-width: 768px){
     nav {
         display: grid;
@@ -33,13 +38,17 @@
     }
 
 
-    .nav-links a {
+    /* .nav-links a {
         text-decoration: none;
         display: block;
         text-align: center;
         padding: 0.8rem 1.4rem;
         font-size: 1.4rem;
         box-shadow: 2px 4px 3px #cdd6d5;
+    } */
+
+    .nav-links button:hover {
+        box-shadow: -2px 2px 2px grey;
     }
 
     .top {
@@ -163,10 +172,14 @@
         align-self: center;
         /* border-left: 1px solid var(--main); */
         transition: transform 1s;
+        -webkit-transition: transform 1s;
+        -moz-transition: transform 1s;
     }
 
     .details:hover .right{
         transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
     }
 
 
@@ -215,6 +228,8 @@
         border: 2px solid var(--main);
         opacity: 0.5;
         transition: opacity 1s;
+        -webkit-transition: opacity 1s;
+        -moz-transition: opacity 1s;
     }
 
     .big-screen:hover, .big-screen2:hover {

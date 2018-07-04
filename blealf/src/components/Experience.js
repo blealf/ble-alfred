@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Duties from './Duties'
 
 const Experience  = ({experience}) =>

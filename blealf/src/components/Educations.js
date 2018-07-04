@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios';
 import Education from './Education'
-import DateFormat from 'dateformat';
+//import DateFormat from 'dateformat';
 
 class Educations extends Component{
     constructor(props){

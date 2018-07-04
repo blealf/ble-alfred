@@ -1,18 +1,18 @@
-window.onload = function() {
+window.onload = function(){
   var nav = document.getElementById("nav-wrapper");
   var btn = document.getElementById("menu-btn");
 
-  if (btn){
+  if(btn){
     btn.addEventListener("click", showMenu);
   }
   window.addEventListener('resize', respond);
 
   // Adjust navigation on width change
   function respond(){
-    if (window.innerWidth > 768) {
+    if(window.innerWidth > 768){
       nav.style.display = "grid";
     }
-    if (window.innerWidth < 768) {
+    if(window.innerWidth < 768){
       nav.style.display = "none";
     }
   }
@@ -36,10 +36,9 @@ window.onload = function() {
 
   function showBig(array, imgfront){
     for (var i = 0; i < array.length; i++) {
-      array[i].addEventListener("click", function () {
+      array[i].addEventListener("click", function(){
         // console.log(this.src);
-        var previousimg = document.getElementById
-          (imgfront);
+        var previousimg = document.getElementById(imgfront);
         var temp = previousimg.src;
         var current = this.src;
         previousimg.src = current;

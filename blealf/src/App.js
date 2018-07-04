@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import './assets/css/style.css'
-import './assets/css/big-screen.css'
-import './assets/javascript/main'
-import './assets/fontawesome/js/all.js'
+import './assets/css/style.css';
+import './assets/css/big-screen.css';
+import './assets/javascript/main';
+import './assets/fontawesome/js/all.js';
 
-import Nav from './components/Nav'
+//import Nav from './components/Nav'
 import Top from './components/Top'
 import About from './components/About'
 import Education from './components/Educations'
 import Experience from './components/Experiences'
 import Skill from './components/Skill'
-import Project from './components/Project'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+import Projects from './components/Projects'
 
 class App extends Component {
   constructor(props){
@@ -43,7 +43,7 @@ class App extends Component {
           <Education />
           <Experience />
           <Skill />
-          <Project />
+          <Projects />
           <Contact />
         </div>
       )
@@ -59,7 +59,7 @@ class App extends Component {
     } else if (this.state.navig === "3") {
       whichShow = (
         <div>
-          <Project />
+          <Projects />
         </div>
       )
     }else if (this.state.navig === "4"){
@@ -82,16 +82,17 @@ class App extends Component {
 
             <ul id="nav-wrapper" className="wrapper ">
               <li className="nav-links">
-                <a href="#" id="1" onClick={this.handleClick}>Home</a>
+                {/* <a href="#" id="1" onClick={this.handleClick}>Home</a> */}
+                <button id="1" onClick={this.handleClick}>Home</button>
               </li>
               <li className="nav-links">
-                <a href="#" id="2" onClick={this.handleClick}>Resume</a>
+                <button id="2" onClick={this.handleClick}>Resume</button>
               </li>
               <li className="nav-links">
-                <a href="#" id="3" onClick={this.handleClick}>Projects</a>
+                <button id="3" onClick={this.handleClick}>Project</button>
               </li>
               <li className="nav-links" >
-                <a href="#" id="4" onClick={this.handleClick}>Contact</a>
+                <button id="4" onClick={this.handleClick}>Contact</button>
               </li>
             </ul>
           </nav>

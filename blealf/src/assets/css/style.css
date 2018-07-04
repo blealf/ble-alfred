@@ -10,7 +10,7 @@ html {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
     font-size: 1.1rem;
-    color: #0d261a;
+    /* color: #0d261a; */
     color: #143927;
     
 }
@@ -47,6 +47,8 @@ nav {
     font-size: 2rem;
     border: none;
     transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
 
 #logo button:hover{
@@ -61,18 +63,41 @@ nav {
     list-style: none;
     margin-left: -40px;
     margin-bottom: 0px;
-    transition: all 2s
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
 }
 
 .nav-wrapper-transition {
-    transition: all 2s
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
 }
 
 
 /* end test */
 .nav-links a {
-    margin-bottom: 1px;
+    /* margin-bottom: 1px;
     text-decoration: none;
+    background-color: var(--main);
+    color: #FFFFE0;
+    display: block;
+    text-align: center;
+    padding: 0.4rem 1.4rem;
+    font-size: 1.4rem; */
+    /* font-weight: bold; */
+
+    /* transition: background 1s; */
+}
+
+/* .nav-links a:hover {
+    background: #006B1C;
+} */
+
+.nav-links button {
+    width: 100%;
+    border: none;
+    margin-bottom: 1px;
     background-color: var(--main);
     color: #FFFFE0;
     display: block;
@@ -81,9 +106,11 @@ nav {
     font-size: 1.4rem;
     /* font-weight: bold; */
     transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
 
-.nav-links a:hover {
+.nav-links button:hover {
     background: #006B1C;
 }
 
@@ -265,6 +292,8 @@ nav {
     margin-top: 8px;
     color: white;
     transition: background 1s;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
 }
 
 .skills div:hover {

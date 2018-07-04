@@ -9,7 +9,7 @@ class Project extends Component{
                 <div className="projects">
                     <div className="item">
                         <h3>
-                            <a href="https://sfmusic.herokuapp.com" target="_blank">Project 1</a>
+                            <a href="https://sfmusic.herokuapp.com" target="_blank" rel="noopener noreferrer">Project 1</a>
                         </h3>
                         <img src={require("../assets/images/main.jpg")} alt="" id="front1" />
                         <div className="project-img">
@@ -22,7 +22,7 @@ class Project extends Component{
 
                     <div className="item">
                         <h3>
-                            <a href="https://sfrecordss.herokuapp.com" target="_blank">Project 2</a>
+                            <a href="https://sfrecordss.herokuapp.com" target="_blank" rel="noopener noreferrer">Project 2</a>
                         </h3>
                         <img src={require("../assets/images/musicfront.PNG")} alt="" id="front2" />
                         <div className="project-img">

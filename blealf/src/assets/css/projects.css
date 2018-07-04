@@ -1,0 +1,94 @@
+:root {
+    --main: #17768D;
+    --dark: black;
+}
+
+.myProjects {
+    /* padding: 10px; */
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.myProjects h1 {
+    display: block;
+    padding: 15px;
+    background: var(--main);
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.itemGrid {
+    display: block;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.itemGrid a {
+    text-decoration: none;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+
+.projectItem {
+    margin-top: 10px;
+    /* background: #549CAD; */
+    background-color: #ecf9ef;
+    padding-bottom: 10px;
+}
+
+
+.projectItemDescription {
+    margin-top: -22px;
+    color: #143927;
+}
+
+.projectItemDescription ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.projectItemDescription ul li {
+    text-align: left;
+    padding: 5px;
+}
+
+.projectItemHeader {
+    padding: 5px;
+    color: white;
+    background: var(--main);
+}
+
+.projectItemImage img {
+    width: 100%;
+}
+
+.seeMore a{
+    background: #006B1C;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: -20px;
+    width: 300px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .itemGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .itemGrid a:hover {
+        box-shadow: -12px 12px 12px grey;
+        width: 110%;
+        margin-left: -20px;
+        z-index: 4;
+        border-right: 1px solid white;
+    }
+
+}

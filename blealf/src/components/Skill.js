@@ -13,6 +13,7 @@ class Skill extends Component{
                     <div>CSS3</div>
                     <div>JavaScript</div>
                     <div>Python</div>
+                    <div>Git</div>
                 </div>
             </div>
         )

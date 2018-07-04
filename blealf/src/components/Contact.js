@@ -20,7 +20,9 @@ class Contact extends Component{
 
                         <div className="form-group">
                             <label>Phone:</label>
-                            <input type="number" name="" id="" />
+                            <input type="tel" name="" id=""
+                                placeholder="123-456-7890"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
                         </div>
 
                         <div className="form-group message">
