@@ -39,6 +39,9 @@
     /* background: #549CAD; */
     background-color: #ecf9ef;
     padding-bottom: 10px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
 }
 
 
@@ -83,7 +86,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .itemGrid a:hover {
+    .itemGrid a:hover, .projectItem:hover {
         box-shadow: -12px 12px 12px grey;
         width: 110%;
         margin-left: -20px;

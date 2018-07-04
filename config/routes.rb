@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   namespace :api do
@@ -7,6 +9,7 @@ Rails.application.routes.draw do
       resources :experiences
       resources :job_duties
       get 'experiences/:id/job_duties', to: 'experiences#duty'
+      resources :skills
     end
   end
 

@@ -83,7 +83,7 @@ class App extends Component {
             <ul id="nav-wrapper" className="wrapper ">
               <li className="nav-links">
                 {/* <a href="#" id="1" onClick={this.handleClick}>Home</a> */}
-                <button id="1" onClick={this.handleClick}>Home</button>
+                <button id="1" onClick={this.handleClick}> Home</button>
               </li>
               <li className="nav-links">
                 <button id="2" onClick={this.handleClick}>Resume</button>

@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => 
     <div className="about">
         <h2>About Blessing Alfred</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo aperiam tempora voluptatem. Ad aut, animi, cumque aperiam dignissimos maxime sit voluptate repellat earum quos eveniet libero quidem impedit. Sed dolorum aspernatur nobis mollitia, quisquam officiis pariatur ea perspiciatis, doloremque nemo, alias quibusdam repudiandae debitis! Quidem asperiores ipsum minima fugit?</p>
+        <p>To use my skills and personal experience with programminng languages and software development concepts to secure a job in sofware development. To develop high-end softwares and web applications for clients in an organization.</p>
     </div>
 
 export default About;
