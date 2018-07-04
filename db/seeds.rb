@@ -1,6 +1,4 @@
-AdminUser.create!([
-  {email: "blealf@gmail.com", encrypted_password: "$2a$11$kxTS71lTSTaf9Uxpuh1bIezvPhrTb8kWP4tuZmbAHIaL0BD0rBF2C", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 1, current_sign_in_at: "2018-07-04 14:08:28", last_sign_in_at: "2018-07-04 14:08:28", current_sign_in_ip: "::1", last_sign_in_ip: "::1"}
-])
+
 Education.create!([
   {institution: "Fanshawe College", degree: "PgCert", course: "Project Management", start_date: "2018-01-23", end_date: "2018-08-24", additional_info: "", rank: 1},
   {institution: "De Montfort University, Leicester, UK", degree: "Masters", course: "Information Systems Management", start_date: "2015-09-28", end_date: "2016-09-30", additional_info: "Grade: Distinction", rank: 2},
