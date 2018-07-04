@@ -1,4 +1,3 @@
-
 Education.create!([
   {institution: "Fanshawe College", degree: "PgCert", course: "Project Management", start_date: "2018-01-23", end_date: "2018-08-24", additional_info: "", rank: 1},
   {institution: "De Montfort University, Leicester, UK", degree: "Masters", course: "Information Systems Management", start_date: "2015-09-28", end_date: "2016-09-30", additional_info: "Grade: Distinction", rank: 2},
