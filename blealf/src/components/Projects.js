@@ -75,10 +75,28 @@ const Projects = () =>
             
             <div className="projectItem">
                 <div className="projectItemHeader">
+                    <h3>Chester Web Desktop Prototype</h3>
+                </div>
+                <div className="projectItemImage">
+                    <img src={require("../assets/images/chester.png")} alt="" />
+                </div>
+                <div className="projectItemDescription">
+                    <ul>
+                        <li> Developed using: </li>
+                        <li><i class="fas fa-code"></i> HTML</li>
+                        <li><i class="fas fa-code"></i> CSS</li>
+                        <li><i class="fas fa-code"></i> </li>                        </ul>
+                </div>
+                <div className="seeMore">
+                    <a href="#"> <i class="fas fa-link"></i> See More </a>
+                </div>
+            </div>
+            <div className="projectItem">
+                <div className="projectItemHeader">
                     <h3>My Portfolio</h3>
                 </div>
                 <div className="projectItemImage">
-                    <img src={require("../assets/images/main.jpg")} alt="" />
+                    <img src={require("../assets/images/myportfolio.png")} alt="" />
                 </div>
                 <div className="projectItemDescription">
                     <ul>
