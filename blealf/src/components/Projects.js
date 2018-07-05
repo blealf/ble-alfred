@@ -18,14 +18,14 @@ const Projects = () =>
                 <div className="projectItemDescription">
                     <ul>
                         <li> Developed using: </li>
-                        <li><i class="fas fa-code"></i> Ruby on Rails</li>
-                        <li><i class="fas fa-code"></i> Bootstrap</li>
-                        <li><i class="fas fa-code"></i> Jquery</li>
-                        <li><i class="fas fa-code"></i> PostgreSQL</li>
+                        <li><i className="fas fa-code"></i> Ruby on Rails</li>
+                        <li><i className="fas fa-code"></i> Bootstrap</li>
+                        <li><i className="fas fa-code"></i> Jquery</li>
+                        <li><i className="fas fa-code"></i> PostgreSQL</li>
                     </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="https://sfmusic.herokuapp.com" target="_blank" rel="noopener noreferrer"> <i class="fas fa-link"></i> See More </a>
+                    <a href="https://sfmusic.herokuapp.com" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
 
@@ -40,14 +40,14 @@ const Projects = () =>
                 <div className="projectItemDescription">
                     <ul>
                         <li> Developed using: </li>
-                        <li><i class="fas fa-code"></i> Ruby on Rails</li>
-                        <li><i class="fas fa-code"></i> Bootstrap</li>
-                        <li><i class="fas fa-code"></i> Jquery</li>
-                        <li><i class="fas fa-code"></i> PostgreSQL</li>
+                        <li><i className="fas fa-code"></i> Ruby on Rails</li>
+                        <li><i className="fas fa-code"></i> Bootstrap</li>
+                        <li><i className="fas fa-code"></i> Jquery</li>
+                        <li><i className="fas fa-code"></i> PostgreSQL</li>
                     </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="https://sfrecords.herokuapp.com" target="_blank" rel="noopener noreferrer"> <i class="fas fa-link"></i> See More </a>
+                    <a href="https://sfrecords.herokuapp.com" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
 
@@ -62,13 +62,13 @@ const Projects = () =>
                 <div className="projectItemDescription">
                     <ul>
                         <li> Developed using: </li>
-                        <li><i class="fas fa-code"></i> Ruby on Rails</li>
-                        <li><i class="fas fa-code"></i> Solr search</li>
-                        <li><i class="fas fa-code"></i> Postgresql</li>
+                        <li><i className="fas fa-code"></i> Ruby on Rails</li>
+                        <li><i className="fas fa-code"></i> Solr search</li>
+                        <li><i className="fas fa-code"></i> Postgresql</li>
                     </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="https://github.com/blealf/ProjectSearch" target="_blank" rel="noopener noreferrer"> <i class="fas fa-link"></i> See More </a>
+                    <a href="https://github.com/blealf/ProjectSearch" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
 
@@ -83,12 +83,12 @@ const Projects = () =>
                 <div className="projectItemDescription">
                     <ul>
                         <li> Developed using: </li>
-                        <li><i class="fas fa-code"></i> HTML</li>
-                        <li><i class="fas fa-code"></i> CSS</li>
-                        <li><i class="fas fa-code"></i> </li>                        </ul>
+                        <li><i className="fas fa-code"></i> HTML</li>
+                        <li><i className="fas fa-code"></i> CSS</li>
+                        <li><i className="fas fa-code"></i> </li>                        </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="#"> <i class="fas fa-link"></i> See More </a>
+                    <a href="#"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
             <div className="projectItem">
@@ -101,12 +101,12 @@ const Projects = () =>
                 <div className="projectItemDescription">
                     <ul>
                         <li> Developed using: </li>
-                        <li><i class="fas fa-code"></i> Ruby on Rails</li>
-                        <li><i class="fas fa-code"></i> React JS</li>
-                        <li><i class="fas fa-code"></i> PostgreSQL</li>                        </ul>
+                        <li><i className="fas fa-code"></i> Ruby on Rails</li>
+                        <li><i className="fas fa-code"></i> React JS</li>
+                        <li><i className="fas fa-code"></i> PostgreSQL</li>                        </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="#"> <i class="fas fa-link"></i> See More </a>
+                    <a href="#"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
         </div>

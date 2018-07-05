@@ -5,11 +5,12 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :educations
-      resources :experiences
-      resources :job_duties
+      resources :educations, only: [:index]
+      resources :experiences, only: [:index, :duty]
+      resources :job_duties, only: [:index]
       get 'experiences/:id/job_duties', to: 'experiences#duty'
-      resources :skills
+      resources :skills, only: [:index]
+      resources :contacts, only: [:index, :create, :new]
     end
   end
 
