@@ -88,7 +88,7 @@ const Projects = () =>
                         <li><i className="fas fa-code"></i> </li>                        </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="#"> <i className="fas fa-link"></i> See More </a>
+                    <a href="http://chester-desktop.herokuapp.com/"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
             <div className="projectItem">
@@ -106,7 +106,7 @@ const Projects = () =>
                         <li><i className="fas fa-code"></i> PostgreSQL</li>                        </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="#"> <i className="fas fa-link"></i> See More </a>
+                    <button> <i className="fas fa-link"></i> See More </button>
                 </div>
             </div>
         </div>

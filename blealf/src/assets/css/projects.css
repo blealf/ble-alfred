@@ -27,7 +27,7 @@
     grid-gap: 10px;
 }
 
-.itemGrid a {
+.itemGrid a, .itemGrid button {
     text-decoration: none;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -70,14 +70,15 @@
     width: 100%;
 }
 
-.seeMore a{
+.seeMore a, .seeMore button{
     background: #006B1C;
     padding: 10px;
     color: white;
     text-decoration: none;
     margin-top: -20px;
-    width: 300px;
+    /* width: 300px; */
     font-size: 20px;
+    border: none;
 }
 
 @media only screen and (min-width: 768px){
@@ -86,12 +87,18 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .itemGrid a:hover, .projectItem:hover {
+    .itemGrid a:hover, .projectItem:hover{
         box-shadow: -12px 12px 12px grey;
         width: 110%;
         margin-left: -20px;
         z-index: 4;
         border-right: 1px solid white;
+    }
+
+    .itemGrid button:hover {
+        box-shadow: -12px 12px 12px grey;
+        z-index: 4;
+        margin-left: -20px;
     }
 
 }
