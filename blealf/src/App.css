@@ -28,5 +28,9 @@
 }
 
 #notice {
-  color:green;
+  color:white;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: green;
+  /* padding: 4px; */
 }

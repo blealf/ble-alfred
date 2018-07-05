@@ -66,8 +66,13 @@ class Contact extends Component{
            phone: "",
            message: "",
            status: "message sent"
-           
        })
+
+       setTimeout(() => {
+           this.setState({
+               status: ""
+           });
+       }, 5000);
     }
 
   
