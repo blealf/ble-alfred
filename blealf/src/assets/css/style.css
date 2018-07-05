@@ -182,7 +182,7 @@ nav {
     background: var(--main);
     height: 60px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     padding-top: 0.6rem;
     grid-gap: 10px;
     margin-top: -5px;
@@ -202,6 +202,10 @@ nav {
 }
 .fa-linkedin-in{
     color: #00e9ff;
+}
+
+.fa-github {
+    color: black;
 }
 
 .about {
