@@ -88,7 +88,7 @@ const Projects = () =>
                         <li><i className="fas fa-code"></i> </li>                        </ul>
                 </div>
                 <div className="seeMore">
-                    <a href="http://chester-desktop.herokuapp.com/"> <i className="fas fa-link"></i> See More </a>
+                    <a href="http://chester-desktop.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i> See More </a>
                 </div>
             </div>
             <div className="projectItem">
