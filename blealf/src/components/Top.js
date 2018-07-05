@@ -15,7 +15,7 @@ const Top = () =>
             </div>
             <div className="social">
                 <div className="social-inner-wrap">
-                    <a href="https://www.instagram.com/blealf/?hl=en" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://www.instagram.com/blealf/?hl=en" target="_blank" rel="noopener noreferrer">
                         <i className="f1 fab fa-instagram"></i>
                     </a>
                     <a href="https://plus.google.com/u/0/109786323889831722236" target="_blank" rel="noopener noreferrer">
@@ -29,7 +29,7 @@ const Top = () =>
                     </a>
                     <a href="https://github.com/blealf" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github"></i>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

@@ -87,22 +87,22 @@ class Contact extends Component{
                     <div className="form">
                         <div className="form-group">
                             <label>Name:</label>
-                            <input type="text" name="name" id="" onChange={this.handleInput} value={this.state.name} required/>
+                            <input type="text" name="name" id="" onChange={this.handleInput} value={this.state.name}/>
                         </div>
 
                         <div className="form-group">
                             <label>Email:</label>
-                            <input type="email" name="email" id="" onChange={this.handleInput} value={this.state.email} required/>
+                            <input type="email" name="email" id="" onChange={this.handleInput} value={this.state.email}/>
                         </div>
 
                         <div className="form-group">
                             <label>Phone:</label>
-                            <input type="tel" name="phone" id="" onChange={this.handleInput} value={this.state.phone} required/>
+                            <input type="tel" name="phone" id="" onChange={this.handleInput} value={this.state.phone}/>
                         </div>
 
                         <div className="form-group message">
                             <label>Message:</label>
-                            <textarea name="message" id="" onChange={this.handleInput} cols="30" rows="10" value={this.state.message} required></textarea>
+                            <textarea name="message" id="" onChange={this.handleInput} cols="30" rows="10" value={this.state.message}></textarea>
                         </div>
                         <div className="form-group message">
                             <button>Submit</button>
