@@ -354,6 +354,7 @@ nav {
     grid-template-columns: 1fr;
     margin-bottom: 15px;
     color: white;
+    padding: 8px;
 }
 .form-group label {
     padding: 5px;
@@ -364,6 +365,7 @@ nav {
     margin-top: 1px;
     background: lightyellow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 98%;
 
 }
 
@@ -376,6 +378,7 @@ nav {
     color: white;
     border: none;
     height: 50px;
+    width: 100%
 }
 
 .footer {
