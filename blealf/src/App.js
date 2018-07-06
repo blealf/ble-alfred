@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactLoading from 'react-loading'
 //import logo from './logo.svg';
 import './App.css';
 import './assets/css/style.css';
@@ -21,10 +22,15 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      navig: "1"
+      navig: "1",
+      loading: true
     }
 
     this.handleClick = this.handleClick.bind(this)
+  }
+
+  componentDidMount(){
+    setTimeout(() => this.setState({ loading: false}), 2000)
   }
 
   handleClick = (e) => {
@@ -32,6 +38,7 @@ class App extends Component {
     this.setState({navig: e.target.id})
     console.log(e.target.id)
   }
+  
 
   render() {
     let whichShow;
@@ -67,6 +74,10 @@ class App extends Component {
         <Contact />
       )
     }
+
+    if (this.state.loading) {
+      return <ReactLoading type="cylon" color="teal" height='23' width='37' />
+    } else {
     return (
       <div className="App">
         <div>
@@ -100,7 +111,7 @@ class App extends Component {
         {whichShow}
         <Footer />
       </div>
-    );
+    );}
   }
 }
 

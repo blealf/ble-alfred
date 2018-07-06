@@ -2,12 +2,16 @@ window.onload = function(){
   var nav = document.getElementById("nav-wrapper");
   var btn = document.getElementById("menu-btn");
 
-  if(btn){
+  if(btn && nav){
     btn.addEventListener("click", showMenu);
+    window.addEventListener('resize', respond);
   }
-  window.addEventListener('resize', respond);
+  
 
   // Adjust navigation on width change
+  if(nav){
+
+  }
   function respond(){
     if(window.innerWidth > 768){
       nav.style.display = "grid";
