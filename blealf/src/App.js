@@ -4,7 +4,7 @@ import ReactLoading from 'react-loading'
 import './App.css';
 import './assets/css/style.css';
 import './assets/css/big-screen.css';
-import './assets/javascript/main';
+import './assets/javascript/main.js';
 import './assets/fontawesome/js/all.js';
 
 //import Nav from './components/Nav'
@@ -30,7 +30,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    setTimeout(() => this.setState({ loading: false}), 2000)
+    setTimeout(() => this.setState({ navig: "1", loading: false}), 2000)
   }
 
   handleClick = (e) => {
@@ -76,7 +76,37 @@ class App extends Component {
     }
 
     if (this.state.loading) {
-      return <ReactLoading type="cylon" color="teal" height='23' width='37' />
+      return <div>
+        <div>
+          <nav>
+            <div id="logo">
+              <div><h2 id="1" onClick={this.handleClick}>Blessing Alfred</h2></div>
+              <div>
+                <button id="menu-btn" >
+                  <i className="fas fa-bars"></i>
+                </button>
+              </div>
+            </div>
+
+            <ul id="nav-wrapper" className="wrapper ">
+              <li className="nav-links">
+                {/* <a href="#" id="1" onClick={this.handleClick}>Home</a> */}
+                <button id="1" onClick={this.handleClick}> Home</button>
+              </li>
+              <li className="nav-links">
+                <button id="2" onClick={this.handleClick}>Resume</button>
+              </li>
+              <li className="nav-links">
+                <button id="3" onClick={this.handleClick}>Project</button>
+              </li>
+              <li className="nav-links" >
+                <button id="4" onClick={this.handleClick}>Contact</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ReactLoading type="cylon" color="teal" height='23' width='37' />
+      </div>
     } else {
     return (
       <div className="App">

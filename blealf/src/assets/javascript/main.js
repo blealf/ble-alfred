@@ -2,11 +2,13 @@ window.onload = function(){
   var nav = document.getElementById("nav-wrapper");
   var btn = document.getElementById("menu-btn");
 
-  if(btn && nav){
+  if(btn){
     btn.addEventListener("click", showMenu);
-    window.addEventListener('resize', respond);
   }
   
+
+    window.addEventListener('resize', respond);
+
 
   // Adjust navigation on width change
   if(nav){
