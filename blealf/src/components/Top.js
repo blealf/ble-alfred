@@ -3,7 +3,7 @@ import React from 'react';
 const Top = () =>
     <div className="top">
         <div className="bounding-box">
-            <div className="sets"><img src={require("../assets/images/me.jpg")} alt="" /></div>
+            <div className="sets"><img src={require("../assets/images/me_full.jpg")} alt="" /></div>
             <div className="sets">
                 <h2>Blessing Alfred</h2>
                 <h4>Phone: </h4>
