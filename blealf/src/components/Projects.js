@@ -96,7 +96,7 @@ const Projects = () =>
                     <h3>My Portfolio</h3>
                 </div>
                 <div className="projectItemImage">
-                    <img src={require("../assets/images/myportfolio.png")} alt="" />
+                    <img src={require("../assets/images/portfolio.png")} alt="" />
                 </div>
                 <div className="projectItemDescription">
                     <ul>
