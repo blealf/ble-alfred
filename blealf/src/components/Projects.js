@@ -10,6 +10,27 @@ const Projects = () =>
         <div className="itemGrid">
             <div className="projectItem">
                 <div className="projectItemHeader">
+                    <h3>Wealthsimple Clone | HackerNews</h3>
+                </div>
+                <div className="projectItemImage">
+                    <img src={require("../assets/images/wealthsimple.png")} alt="" />
+                </div>
+                <div className="projectItemDescription">
+                    <ul>
+                        <li> Developed using: </li>
+                        <li><i className="fas fa-code"></i> Vanilla Javascript</li>
+                        <li><i className="fas fa-code"></i> Font Awesome</li>
+                        <li><i className="fas fa-code"></i> HTML/CSS</li>
+                        <li><i className="fas fa-code"></i> Rack</li>
+                    </ul>
+                </div>
+                <div className="seeMore">
+                    <a href="https://wealthsimple.herokuapp.com" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i> See More </a>
+                </div>
+            </div>
+
+            <div className="projectItem">
+                <div className="projectItemHeader">
                     <h3>Music Web App</h3>
                 </div>
                 <div className="projectItemImage">
