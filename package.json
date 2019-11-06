@@ -7,6 +7,6 @@
   "scripts": {
     "build": "cd blealf && npm install && npm run build && cd ..",
     "deploy": "cp -a blealf/build/. public/",
-    "postinstall": "npm run build && npm run deploy && echo 'BLealf react built!'"
+    "postinstall": "npm run build && npm run deploy && echo 'Blealf react built!'"
   }
 }
