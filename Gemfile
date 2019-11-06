@@ -64,6 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # Active admin
-gem 'devise', '> 4.x'
+# gem 'devise', '> 4.x'
+gem "devise", ">= 4.7.1"
 gem 'activeadmin', github: 'activeadmin/activeadmin'
 gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
+
+gem "loofah", ">= 2.3.1"
